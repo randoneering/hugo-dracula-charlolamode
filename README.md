@@ -1,11 +1,9 @@
-### charlola.mode
+### charlola.mode (Dracula Themed!)
+
+I loved this hugo theme so much that I needed to add my love of the Dracula Theme to it as well. All credit for the full structure of this Hugo Theme go to https://github.com/charlola.  I used the color palette provided by the official dracula theme site [DraculaThemePalette](https://draculatheme.com/contribute#color-palette)
 
 
-This website theme is based on the Hugo framework. This is a modification of the templates [PaperMod](https://github.com/adityatelange/hugo-PaperMod) and [hugo-paper](https://github.com/nanxiaobei/hugo-paper). It's quick and easy to use with minimal design and the most basic functions.
-
-Check out my website to see a similar example: www.cmart1n.com
-
-Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/.
+Link to the original Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/.
 
 ## Features
 
@@ -22,6 +20,7 @@ Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/
     - posts can be visualized with images
     - post can lead to an external link
 
+### replace this image
 ![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/tn.png)
 
 
