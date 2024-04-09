@@ -41,7 +41,8 @@
 
 <header class="header">
     <nav class="nav">
-        <div class="logo">
+        <!-- I was not a fan of the title of the site on the left, so I commeneted this out. However, I kept the code in case you want it-->
+        <!-- <div class="logo">
             {{- $label_text := (.Site.Params.label.text | default .Site.Title) }}
             {{- if .Site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
@@ -98,7 +99,7 @@
                 </ul>
                 {{- end }}
             </span>
-        </div>
+        </div> -->
         {{- $currentPage := . }}
         <ul id="menu">
             <li>
