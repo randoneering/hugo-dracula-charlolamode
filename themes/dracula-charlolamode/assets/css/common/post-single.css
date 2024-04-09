@@ -31,6 +31,7 @@
 
 .breadcrumbs a {
     font-size: 16px;
+    color: rgb(80,250,123);
 }
 
 .post-content {
@@ -52,18 +53,22 @@
 .post-content h2 {
     margin: 32px auto 24px;
     font-size: 32px;
+    color: rgb(255,184,108);
 }
 
 .post-content h3 {
     font-size: 24px;
+    color: rgb(80,250,123);
 }
 
 .post-content h4 {
     font-size: 16px;
+    color: rgb(255,85,85);
 }
 
 .post-content h5 {
     font-size: 14px;
+    color: rgb(251,250,140);
 }
 
 .post-content h6 {

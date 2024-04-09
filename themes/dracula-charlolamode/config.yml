@@ -39,7 +39,7 @@ params:
     profileMode:
         # Disable to populate home page with 'mainSections' content
         enabled: true
-        title: Dracula Charlolamode Hugo Theme
+        title: dracula-charlolamode
         description: |
 
           I love the Dracula Theme, so here is my rendition of my favorite hugo theme.
