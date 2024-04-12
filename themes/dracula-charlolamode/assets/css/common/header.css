@@ -1,7 +1,8 @@
 .nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     max-width: calc(var(--nav-width) + var(--gap) * 2);
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -16,6 +17,7 @@
 #menu {
     display: flex;
     margin: auto var(--gap);
+    
 }
 
 .logo {
@@ -59,6 +61,7 @@ body:not(.dark) #sun {
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
+
 }
 
 #menu li + li {
@@ -66,11 +69,12 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(80,250,123);
 }
 
 #menu .active {
+
     font-weight: 500;
     border-bottom: 2px solid currentColor;
 }
