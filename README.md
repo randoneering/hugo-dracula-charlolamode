@@ -7,3 +7,4 @@ Link to the original Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-char
 
 
 Updated readme to come
+

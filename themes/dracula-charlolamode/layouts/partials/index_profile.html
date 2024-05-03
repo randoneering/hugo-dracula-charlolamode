@@ -3,42 +3,21 @@
     <div class="profile_inner">
         {{- if .imageUrl -}}
         <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default " profile image" }}"
-            height="{{ .imageHeight | default 350 }}" width="{{ .imageWidth | default 800}}" />
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- end }}
+        <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
+        <div class="profile-description">{{ .description | markdownify }}</div>
+        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
+
+        {{- with .buttons }}
+        <div class="buttons">
+            {{- range . }}
+            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
+                <span class="button-inner">{{ .name | title }}</span>
+            </a>
+            {{- end }}
+        </div>
         {{- end }}
     </div>
-<div class="profile-description">
-    <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
-    <header class="header"  >
-        <nav class="nav">
-            {{- $currentPage := . }}
-            <ul id="menu" >
-                <li>
-                    <a href="/" title="Home"><span>Home</span></a>
-                </li>
-                {{- range .Site.Menus.main }}
-                {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
-                {{- $page_url:= $currentPage.Permalink | absLangURL }}
-                {{- $is_search := eq ($.Site.GetPage .KeyName).Layout `search` }}
-                <li>
-                    <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
-                    {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                        <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
-                            {{- .Pre }}
-                            {{- .Name -}}
-                            {{ .Post -}}
-                        </span>
-                    </a>
-                </li>
-                {{- end }}
-            </ul>
-        </nav>
-    </header>
-    
-    {{ .description | markdownify }}  
-    {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
-    {{- with .buttons }}
+    {{- end}}
 </div>
-
-{{- end }}
-{{- end}}
-
