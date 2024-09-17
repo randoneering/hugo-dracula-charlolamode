@@ -10,14 +10,14 @@ Link to the original [hugo theme](https://themes.gohugo.io/themes/hugo-theme-cha
 
 ### Title Page
 
-![Alt text](/images/TitlePage.png)
+![Alt text](/public/images/TitlePage.png)
 
 
 ### Blog Posts
 
-![Alt text](/images/BlogPostsPages.png)
+![Alt text](/public/images/BlogPostsPages.png)
 
-![Alt text](/images/PostDetailed.png)
+![Alt text](/public/images/PostDetailed.png)
 
 
 
