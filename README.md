@@ -10,16 +10,14 @@ Link to the original [hugo theme](https://themes.gohugo.io/themes/hugo-theme-cha
 
 ### Title Page
 
-{{< figure src="/images/TitlePage.png" title="" >}}
+![Alt text](/images/TitlePage.png)
 
 
 ### Blog Posts
 
-{{< figure src="/images/BlogPostsPages.png" title="" >}}
+![Alt text](/images/BlogPostsPages.png)
 
-{{< figure src="/images/PostDetailed.png" title="" >}}
-
-
+![Alt text](/images/PostDetailed.png)
 
 
 
