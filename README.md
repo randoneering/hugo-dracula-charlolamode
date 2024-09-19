@@ -29,15 +29,21 @@ First install Hugo on where you plan to host your site. Additionally, installing
 
 # Install (Hugo Theme)
 
-<!-- In your Hugo site folder:
+1. In your Hugo site folder:
 
-`git init` 
+```git init```
 
-Clone the themes submodule:
+2. Clone the themes submodule:
 
 `git submodule add https://github.com/randoneering/hugo-dracula-charlolamode.git themes/dracula-charlolamode`
 
+3. Modify your config.yml to your liking
 
+4. Run your Hugo development server to view your site locally
 
+`hugo server` 
 
- -->
+5. To view site locally, enter `http://localhost:1313` in your preferred web browser
+
+6. ENJOY!
+
