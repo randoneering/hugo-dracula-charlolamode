@@ -1,10 +1,10 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "dracula-charlolamode"
+name = "charlolamode"
 license = "MIT"
 licenselink = "https://github.com/charlola/blog-template/LICENSE"
-description = "minimalistic website with basic features, and a dracula theme twist"
+description = "minimalistic website with basic features"
 homepage = "https://github.com/charlola/blog-template"
 tags = [
   "responsive",
@@ -38,6 +38,10 @@ features = [
 [author]
   name = "Charlotte Martin"
   homepage = "https://github.com/charlola/"
+
+[theme author]
+  name = "Justin Frye
+  homepage = "https://github.com/randoneering"
 
 # If porting an existing theme
 [original]
