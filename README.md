@@ -10,14 +10,14 @@ Link to the original [hugo theme](https://themes.gohugo.io/themes/hugo-theme-cha
 
 ## Title Page
 
-![Alt text](/themes/dracula-charlolamode/images/TitlePage.png)
+![Alt text](/images/TitlePage.png)
 
 
 ## Blog Posts
 
-![Alt text](/themes/dracula-charlolamode/images/BlogPostsPages.png)
+![Alt text](/images/BlogPostsPages.png)
 
-![Alt text](/themes/dracula-charlolamode/images/PostDetailed.png)
+![Alt text](/images/PostDetailed.png)
 
 
 # Install (Hugo Server)
