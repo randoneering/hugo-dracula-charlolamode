@@ -70,7 +70,7 @@ body:not(.dark) #sun {
 
 #menu a {
     font-size: 20px;
-    color: rgb(80,250,123);
+    color: var(--menu)
 }
 
 #menu .active {
