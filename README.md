@@ -10,7 +10,11 @@ Link to the original [hugo theme](https://themes.gohugo.io/themes/hugo-theme-cha
 
 ## Title Page
 
-![Alt text](/images/TitlePage.png)
+### Dark Mode
+![Alt text](/images/darkmodeTitle.png)
+
+### Light Mode
+![Alt text](/images/litemodeTitle.png)
 
 
 ## Blog Posts
