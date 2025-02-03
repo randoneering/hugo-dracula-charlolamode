@@ -28,7 +28,6 @@ params:
 
 
     defaultTheme: dark
-    disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
     displayFullLangName: true
