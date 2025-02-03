@@ -275,6 +275,7 @@
     background: var(--entry);
 }
 
+
 .toc details summary {
     cursor: zoom-in;
     margin-inline-start: 20px;
