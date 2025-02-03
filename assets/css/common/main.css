@@ -41,7 +41,8 @@
 .social-icons a svg {
     height: 26px;
     width: 26px;
-    color: rgb(255,184,108);
+    color: var(--social-icons);
+
 }
 
 code {

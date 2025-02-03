@@ -6,41 +6,46 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(40, 42, 54);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(189, 147, 249);
-    --secondary: rgb(248, 248, 242);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --hljs-bg: rgb(46, 46, 51);
-    --code-bg: rgb(68, 71, 90);
-    --border: rgb(80, 250, 123);
-    --currentline: rgb(68,71,90);
-    --foreground: rgb(248, 248, 242);
-    --comment: rgb(98,114,164);
-    --cyan: rgb(139,233,253);
-    --green: rgb(80,250,123);
-    --orange: rgb(255,184,108);
-    --pink: rgb(255,121,198);
-    --purple: rgb(189,147,249);
-    --red: rgb(255,85,85);
-    --yellow: rgb(251,250,140);
+    --theme: rgb(255, 255, 255);
+    --menu: rgb(30, 30, 30);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(30, 30, 30);
+    --secondary: rgb(108, 108, 108);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(31, 31, 31);
+    --hljs-bg: rgb(28, 29, 33);
+    --code-bg: rgb(245, 245, 245);
+    --border: rgb(238, 238, 238);
+    --footermessage: rgb(30, 30, 30);
+    --social-icons: rgb(30, 30, 30);
+
 }
 
+@media (prefers-color-scheme: dark) {
 .dark {
+   --gap: 24px;
+   --content-gap: 20px;
+   --nav-width: 1024px;
+   --main-width: 720px;
+   --header-height: 60px;
+   --footer-height: 60px;
+   --radius: 8px;
    --theme: rgb(40, 42, 54);
    --entry: rgb(68, 71, 90);
    --primary: rgb(189, 147, 249);
    --secondary: rgb(248, 248, 242);
+   --menu: rgb(80,250,123);
    --tertiary: rgb(65, 66, 68);
    --content: rgb(196, 196, 197);
    --hljs-bg: rgb(46, 46, 51);
    --code-bg: rgb(68, 71, 90);
-   --border: rgb(80, 250, 123);
+   --border: rgb(40, 42, 54);
    --link: rgb(241, 250, 140);  
    --currentline: rgb(68,71,90);
    --foreground: rgb(248, 248, 242);
    --comment: rgb(98,114,164);
+   --social-icons: rgb(255,184,108);
+   --footermessage: rgb(255,121,198);
    --cyan: rgb(139,233,253);
    --green: rgb(80,250,123);
    --orange: rgb(255,184,108);
@@ -48,6 +53,7 @@
    --purple: rgb(189,147,249);
    --red: rgb(255,85,85);
    --yellow: rgb(251,250,140);
+}
 }
 
 .list {
@@ -57,3 +63,4 @@
 .dark.list {
     background: var(--theme);
 }
+

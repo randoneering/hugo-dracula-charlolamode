@@ -40,6 +40,7 @@
 
 #theme-toggle svg {
     height: 18px;
+
 }
 
 button#theme-toggle {
@@ -68,9 +69,10 @@ body:not(.dark) #sun {
     margin-inline-start: var(--gap);
 }
 
+
 #menu a {
     font-size: 20px;
-    color: rgb(80,250,123);
+    color: var(--menu)
 }
 
 #menu .active {
@@ -99,4 +101,5 @@ body:not(.dark) #sun {
 
 .logo-switches {
     flex-wrap: inherit;
+    
 }
